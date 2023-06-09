@@ -1,2 +1,2 @@
 #!/bin/bash
-id -un
+git config user.name
