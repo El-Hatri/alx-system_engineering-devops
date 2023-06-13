@@ -1,4 +1,2 @@
 #!/bin/bash
-path_dirs=($(echo "$PATH" | tr ':' '\n'))
-num_dirs=${#path_dirs[@]}
-echo $num_dirs
+echo $PATH | tr ':' '\n' | wc -l
