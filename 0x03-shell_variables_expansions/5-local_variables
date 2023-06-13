@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Local Variables:"
+echo "$(set -o posix ; set)"
+
+echo "Environment Variables:"
+env
+
+echo "Functions:"
+declare -F

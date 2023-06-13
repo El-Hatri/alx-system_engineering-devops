@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export BEST="School"
+echo "BEST variable has been created with the value: $BEST"
+
